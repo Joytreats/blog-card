@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: #F4D04E;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.innerbackground{
+    width: 60%;
+    height: 80%;
+}
+.herosection{
+    background-color: #FFFFFF;
+    padding: 1.2rem;
+    border-radius: 4%;
+    box-shadow: 10px 12px #111111;
+    max-width: min-content;
+    height: min-content;
+    border: 3px solid #111111;
+}
+.image1{
+    height: 240px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 5px;
+    margin: 0.8em;
+}
+.content{
+    align-content: flex-start;
+}
+.firsttext{
+    background-color: #F4D04E;
+    width: fit-content;
+    padding: 0.6rem;
+    font-weight: 600;
+    margin: 0.8em;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: "Figtree", sans-serif;
+    align-content: flex-start;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    margin: 0.5em;
+    font-weight: 800;
+    font-size: 28px;
+}
+h1:hover{
+    color: #F4D04E;
+    cursor: pointer;
+}
+.secondtext{
+    font-family:"Figtree", sans-serif;
+    font-size: 18px;
+    margin: 1em;
+}
+.thirdtext{
+    font-family:"Figtree", sans-serif;
+    font-size: 19px;
+    color: #6B6B6B;
+    margin: 0.8em;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    align-self: start;
+    align-items: center;
+    margin: 0.8em;
+}
+.user{
+    max-height: 50px;
+    max-width: 50px;
+}
+.lasttext{
+    font-family:"Figtree", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1em;
+}
